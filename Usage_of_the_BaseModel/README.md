@@ -13,7 +13,7 @@
     - [前提条件](#前提条件)
     - [在Postman中测试POST请求](#在postman中测试post请求)
     - [错误处理](#错误处理)
-    - [item默认以JSON(字典)方式返回数据:](#item默认以json字典方式返回数据)
+  - [item默认以JSON(字典)方式返回数据:](#item默认以json字典方式返回数据)
   - [注意事项:](#注意事项)
     - [在FastAPI中，使用`BaseModel`定义的数据模型时，字段必须指定类型。](#在fastapi中使用basemodel定义的数据模型时字段必须指定类型)
     - [使用`BaseModel`定义的数据模型时，数据传输只能使用json格式:](#使用basemodel定义的数据模型时数据传输只能使用json格式)
@@ -262,7 +262,7 @@ Postman返回内容为:<br>
 ```
 
 
-### item默认以JSON(字典)方式返回数据:
+## item默认以JSON(字典)方式返回数据:
 
 上述例子中 `return item` 返回的是一个继承`BaseModel`的类，可以通过修改代码查看效果:<br>
 
