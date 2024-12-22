@@ -64,7 +64,7 @@ if __name__ == "__main__":
 服务正常启动，终端将显示:
 
 ```log
-(base) root@iZ2ze50qtwycx9cbbvesvxZ:/data# python name_test.py 
+(base) root@iZ2ze50qtwycx9cbbvesvxZ:/data# python main.py 
 INFO:     Started server process [1740560]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
